@@ -30,5 +30,5 @@ The display exposes brightness as a HID feature report on interface 7 (Apple ven
 To set the brightness with one word, put a small `.cmd` file in a folder on your `PATH`. For example, `xdr.cmd`:
 
 ```bat
-@py "C:\path\to\brightness.py" set 10
+@py "C:\path\to\brightness.py" set 20
 ```
